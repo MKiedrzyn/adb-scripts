@@ -7,6 +7,7 @@ Zbiór moich własnych skryptów ADB, które stworzyłem podczas testowania i au
 ### `nagrywaj.bat`
 - Nagrywa ekran telefonu przez 15 sekund.
 - Pobiera nagrany plik `.mp4` na komputer.
+- Pobiera logi na komputer.
 
 ### `yanosik_screenshot.bat`
 - Uruchamia aplikację Yanosik na podłączonym urządzeniu.
