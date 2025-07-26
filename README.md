@@ -5,15 +5,19 @@ Zbiór moich własnych skryptów ADB, które stworzyłem podczas testowania i au
 ## 📜 Skrypty
 
 ### `nagrywaj.bat`
-- Nagrywa ekran telefonu przez 15 sekund.
-- Pobiera nagrany plik `.mp4` na komputer.
-- Pobiera logi na komputer.
+Automatyzuje proces:
+
+- Nagrywania 15-sekundowego wideo z ekranu urządzenia (`adb screenrecord`)
+- Pobierania nagrania na komputer
+- Zrzutu logów z `adb logcat`
 
 ### `yanosik_screenshot.bat`
-- Uruchamia aplikację Yanosik na podłączonym urządzeniu.
-- Przewija ekran w górę.
-- Robi zrzut ekranu i pobiera go na komputer.
-- Nadaje plikowi unikalną nazwę opartą o datę i godzinę.
+Automatyzuje proces:
+
+- Uruchomienia aplikacji `pl.neptis.yanosik.mobi.android` za pomocą `adb monkey`
+- Przewinięcia ekranu w aplikacji
+- Wykonania zrzutu ekranu i zapisania go lokalnie
+
 
 ## 🔧 Wymagania
 
