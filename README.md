@@ -15,11 +15,11 @@ Aktualnie dostępne skrypty:
 ## 📜 Skrypty
 
 ### `nagrywaj.bat`
-- Rozpoczyna nagrywanie ekranu telefonu i zapisuje wynikowy plik `.mp4` na komputerze.
+- Nagrywa ekran telefonu przez 15 sekund.
+- Pobiera nagrany plik `.mp4` na komputer.
 
 ### `yanosik_screenshot.bat`
 - Uruchamia aplikację Yanosik na podłączonym urządzeniu.
 - Przewija ekran w górę.
 - Robi zrzut ekranu i pobiera go na komputer.
 - Nadaje plikowi unikalną nazwę opartą o datę i godzinę.
-
